@@ -134,3 +134,57 @@
 .section-container .catalogue-container .jersey-card .jersey-description p {
   margin: 2px 0;
 }
+.section-container .designing-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-container .designing-container .subsection:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  min-height: 340px;
+  margin-left: 12px;
+  justify-content: space-around;
+  min-width: 340px;
+  max-width: 500px;
+}
+
+.section-container .designing-container .subsection h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.section-container .designing-container .subsection p {
+  font-size: 1.0em;
+  font-weight: 400;
+}
+
+.section-container .designing-container .subsection .section-subcontainer:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container .designing-container .subsection button {
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 10px 24px;
+  border-radius: 10px;
+  background-color: #12CDF5;
+  color: #FFFCFC;
+  cursor: pointer;
+}
+
+.section-container .designing-container .subsection:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container .designing-container .subsection img {
+  width: 90%;
+  min-width: 400px;
+}
