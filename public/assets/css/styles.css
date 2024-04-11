@@ -134,3 +134,35 @@
 .section-container .catalogue-container .jersey-card .jersey-description p {
   margin: 2px 0;
 }
+.section-container .about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-container .about-container h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+.section-container .about-container h3 {
+  font-size: 1.05em;
+  font-weight: 500;
+}
+
+.section-container .about-container .about-description-container {
+  width: 60%;
+}
+
+.section-container .about-container .about-image-container {
+  width: 50%;
+}
+.section-container .about-container .about-image-container img {
+  width: 100%;
+}
