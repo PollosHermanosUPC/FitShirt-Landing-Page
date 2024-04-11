@@ -4,8 +4,190 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FitShirt</title>
+  <link rel="stylesheet" href="./public/assets/css/general.styles.css">
+  <link rel="stylesheet" href="./public/assets/css/styles.css">
 </head>
 <body>
-  <h1>FitShirt Landing page</h1>
+  <header class="header-container">
+    <nav class="navigation-container">
+      <div class="navigation-section" id="logo">
+        <a href="#">
+          FitShirt
+        </a>
+      </div>
+      <div class="navigation-section" id="menu">
+        <ul>
+          <li><a href="#home-section">Inicio</a></li>
+          <li><a href="#catalogue-section">Catálogo</a></li>
+          <li><a href="#designing-container">Diseña</a></li>
+          <li><a href="#about-contaienr">Nosotros</a></li>
+          <li><a href="#contact-container">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="navigation-section" id="login-container">
+        <ul>
+          <li><a href="#">
+            <img alt="cart-icon" src="./public/assets/images/icons/cart.icon.png"/>
+          </a></li>
+          <li><a href="#">
+            <img alt="user-icon" src="./public/assets/images/icons/user.icon.png"/>
+          </a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <section class="section-container" id="home-section">
+    <div class="home-container">
+      <div class="subsection">
+        <div class="section-subcontainer">
+          <h1>Descubre un mundo de camisetas deportivas únicas </h1>
+        </div>
+        <div class="section-subcontainer">
+          <p>Empieza tu experiencia de compra deportiva. Explora nuestra selección de camisetas y haz tu elección entre una amplia variedad de diseños.</p>
+        </div>
+        <div class="section-subcontainer">
+          <button>Ver catálogo</button>
+        </div>
+      </div>
+      <div class="subsection">
+        <img alt="jerseys-hero-image" src="./public\assets\images\home\home.camisetas.png"/>
+      </div>
+    </div>
+  </section>
+  <section class="section-container" id="catalogue-section">
+    <div class="catalogue-container">
+      <div class="subsection">
+        <span>
+          <h2>Lo último</h2>
+        </span>
+        <span>
+          <a href="#">Ver todo >></a>
+        </span>
+      </div>
+      <div class="subsection" id="jerseys-container">
+        <ul class="jerseys-carrousel">
+          <li class="jersey-card">
+            <div class="jersey-image-container">
+              <img alt="Camiseta Liverpool Visitante 2024" src="./public/assets/images/home/jersey_2.png"/>
+              <span>S/. 149.90</span>
+            </div>
+            <div class="jersey-description">
+              <p>Camiseta Liverpool Visitante 2024</p>
+              <p>Orlon Sportwear</p>
+              <p>Lima</p>
+            </div>
+          </li>
+
+          <li class="jersey-card">
+            <div class="jersey-image-container">
+              <img alt="Camiseta Flamengo Local 2024" src="./public/assets/images/home/jersey_1.png"/>
+              <span>S/. 99.90</span>
+            </div>
+            <div class="jersey-description">
+              <p>Camiseta Flamengo Local 2024</p>
+              <p>Piusant</p>
+              <p>Lima</p>
+            </div>
+          </li>
+
+          <li class="jersey-card">
+            <div class="jersey-image-container">
+              <img alt="Camiseta Barcelona Tercera 2024" src="./public/assets/images/home/jersey_3.png"/>
+              <span>S/. 110.80</span>
+            </div>
+            <div class="jersey-description">
+              <p>Camiseta Barcelona Tercera 2024</p>
+              <p>Tienda Gol Perú</p>
+              <p>Lima</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section-container" id="designing-container">
+    <div class="designing-container">
+      <div class="subsection">
+        <img alt="jerseys-design-section" src="./public/assets/images/home/jerseys.jpg"/>
+      </div>
+      <div class="subsection">
+        <div class="section-subcontainer">
+          <h1>Comienza a diseñar </h1>
+        </div>
+        <div class="section-subcontainer">
+          <p>¡Deja volar tu imaginación y convierte tus ideas en realidad! Ya sea para uso personal o para tu negocio en línea, nosotros te ofrecemos una experiencia de diseño única y satisfactoria. ¿Qué estás esperando para comenzar a diseñar tus camisetas deportivas únicas?.</p>
+        </div>
+        <div class="section-subcontainer">
+          <button>Diseñar ahora</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-container" id="about-contaienr">
+    <div class="about-container">
+      <div class="about-header-container">
+        <h1>¿Quiénes somos?</h1>
+        <h3>Somos FitShirt, un equipo apasionado por el diseño y la moda deportiva en una experiencia única</h3>
+      </div>
+      <div class="about-image-container">
+        <img alt="fitshirt-logo" src="./public/assets/images/home/logo.fitshirt.jpg"/>
+      </div>
+      <div class="about-description-container">
+        <p>Nuestro equipo está formado por expertos en tecnología y entusiastas del deporte, comprometidos en brindarte la mejor experiencia en la creación, venta y compra de camisetas deportivas.</p>
+
+        <p>Nos esforzamos por ofrecer una plataforma intuitiva y emocionante donde puedas dar rienda suelta a tu creatividad y encontrar las prendas deportivas perfectas que se adapten a tu estilo y personalidad. Con FitShirt, descubre una comunidad vibrante y dinámica que celebra la individualidad, la pasión por el deporte y la moda deportiva.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section-container" id="contact-container">
+    <div class="contact-container">
+      <div class="subsection">
+        <h1>Contáctanos</h1>
+      </div>
+      <div class="subsection">
+        <form class="contact-form">
+          <div class="form-subcontainer">
+            <div class="input-container">
+              <label for="name-input"></label>
+              <input type="text" id="name-input" name="name" placeholder="Ingrese su nombre"/>
+            </div>
+            <div class="input-container">
+              <label for="email-input"></label>
+              <input type="email" id="email-input" name="email" placeholder="Ingrese su email"/>
+            </div>
+          </div>
+          <div class="form-subcontainer">
+            <div class="input-container">
+              <label for="message-input"></label>
+              <textarea id="message-input" name="message" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+          </div>
+          <div class="form-subcontainer">
+            <div class="input-container">
+              <label for="agree-terms">
+                <input type="checkbox" id="agree-terms" name="agree_terms" />
+                Guardar mi nombre, correo electrónico y sitio web en este navegador para la próxima vez que comente.
+              </label>
+            </div>
+          </div>
+          <div class="form-subcontainer">
+            <div class="input-container">
+              <button type="submit" aria-label="submit-form">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-container">
+    <div class="footer-subcontainer">
+      <img alt="payment-methods" src="./public/assets/images/home/footer-payment-method.png.jpg">
+      <p>© 2024 FitShirt. All rights reserved.</p>
+    </div>
+  </footer>
+  
 </body>
 </html>
