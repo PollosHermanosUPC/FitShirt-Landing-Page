@@ -297,6 +297,7 @@ header {
 
 .section-container .about-container .about-description-container {
   width: 60%;
+  line-height: 1.5;
 }
 
 .section-container .about-container .about-image-container {
